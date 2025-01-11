@@ -15,6 +15,7 @@
 int innerPadLeft = SCREEN_WIDTH/2 - INNER_W/2; 
 int innerPadTop = SCREEN_HEIGHT/2 - INNER_H/2; 
 
+// CS, RS, RES
 Adafruit_ST7735 tft = Adafruit_ST7735(5, 0, 4);
 
 struct MatrixColumn {
